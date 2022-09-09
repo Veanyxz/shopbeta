@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.856);
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  padding: 0.8rem 0;
+}
+
+nav {
+  background: rgb(255, 145, 0);
+  font-size: 1.4rem;
+  height: 3rem;
+  line-height: 3rem;
+  color: white;
+  padding-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.container {
+  margin: auto;
+  padding: 1rem;
+  width: 40vw;
+  min-width: fit-content;
+}
+
+#itemForm {
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 1.4rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+#itemForm label {
+  color: white;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+#itemForm input {
+  height: 2rem;
+  display: flex;
+  color: white;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+  border: 1px solid #bfbfbf;
+  border-radius: 0.5rem;
+}
+
+#quantityInput,
+#priceInput {
+  width: 3rem;
+  background: transparent;
+}
+
+#nameInput {
+  background: transparent;
+}
+
+button {
+  border-radius: 3px;
+}
+
+#addItemButton {
+  border: unset;
+  background: rgb(5, 180, 5);
+  color: #fff;
+  padding: 0.5rem;
+}
+
+#deleteAllItemButton {
+  border: unset;
+  background-color: red;
+  color: #fff;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+#itemsDiv {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.item {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 12fr 1fr 1fr;
+  background: #eaeaea;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  max-width: 33rem;
+}
+
+.checkbox {
+  height: 100%;
+  width: 2.5rem;
+}
+
+.itemInfo {
+  text-align: center;
+}
+
+.deleteButton {
+  margin: 0 0 0 auto;
+  border: unset;
+  background: #ff0000e3;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 3rem;
+  height: 100%;
+}
+
+.editButton {
+  margin: 0 0 0 auto;
+  border: unset;
+  background: #0000ff;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 3rem;
+  height: 100%;
+}
+
+.deleteButton:active {
+  margin-top: 3px;
+}
+
+.purchased {
+  background: #00805a;
+  color: #fff;
+}
+
+.purchased p {
+  text-decoration: line-through;
+}
+
+#totalPriceDiv {
+  background-color: rgb(255, 145, 0);
+  text-align: center;
+  font-size: 1.5rem;
+  width: fit-content;
+  color: white;
+  margin: auto;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}
