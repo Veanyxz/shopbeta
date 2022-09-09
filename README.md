@@ -6,4 +6,4 @@ An online PWA shopping list app using dexiejs
 
  Live Site:
 
-https://shopbeta-vean.vercel.app/
+http://shopbeta.vean.my.id
